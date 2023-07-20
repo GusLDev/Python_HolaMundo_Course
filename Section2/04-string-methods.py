@@ -1,0 +1,13 @@
+animal = "   happy dog   "
+print(animal.upper())
+print(animal.lower())
+print(animal.strip().capitalize())
+print(animal.title()) 
+print(animal.strip())
+print(animal.lstrip())
+print(animal.rstrip())
+print(animal.find("a"))
+print(animal.find("z"))
+print(animal.replace("happy","angry"))
+print("happy" in animal)
+print("happy" not in animal)
